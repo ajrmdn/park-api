@@ -1,4 +1,4 @@
-class NationalsController < ApplicationController
+class V1::NationalsController < ApplicationController
 
   def index
     @nationals = National.all

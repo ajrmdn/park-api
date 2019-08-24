@@ -5,5 +5,9 @@ Rails.application.routes.draw do
     resources :states
     resources :nationals
   end
+
+
+  namespace :v1 do
+    concerns :api_base
+  end
 end
-namespace :v1
