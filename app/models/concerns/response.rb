@@ -1,5 +1,5 @@
 module Response
-  def json_response(objects, status = :ok)
+  def json_response(object, status = :ok)
     render json: object, status: status
   end
-end    
+end
