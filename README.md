@@ -1,24 +1,45 @@
-# README
+# _Parks Finder API_
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### By _**Abdellah Ramadan**_
 
-Things you may want to cover:
+## Description
 
-* Ruby version
+_This is an API built to find all state and national parks._
 
-* System dependencies
+## Endpoints
 
-* Configuration
+* GET http://localhost:3000/v1/states get all State Parks available
 
-* Database creation
+* GET http://localhost:3000/v1/nationals get all National Parks available
 
-* Database initialization
+* GET http://localhost:3000/v1/states/random get random State Park
 
-* How to run the test suite
+* GET http://localhost:3000/v1/nationals/random get random National Park
 
-* Services (job queues, cache servers, search engines, etc.)
+* GET http://localhost:3000/v1/states/[:id] get State Park with id passed in
 
-* Deployment instructions
+* GET http://localhost:3000/v1/nationals/[:id] get National Parks with id passed in
 
-* ...
+
+## Setup/Installation Requirements
+
+* Clone this repo to your desktop.
+* Change directories in terminal to this project's folder.
+* Open in Atom
+
+## Known Bugs
+
+There are no known bugs at this time.
+
+## Support and contact details
+
+If you encounter any issues using this software or have comments please e-mail at:
+
+* Abdellah Ramadan: ajrmdn@gmail.com
+
+
+### License
+
+* _open source_
+
+Copyright (c) 2019 **_Abdellah Ramadan_**
