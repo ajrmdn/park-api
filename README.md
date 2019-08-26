@@ -37,6 +37,11 @@ If you encounter any issues using this software or have comments please e-mail a
 
 * Abdellah Ramadan: ajrmdn@gmail.com
 
+## Technologies Used
+
+* ruby
+* rails
+
 
 ### License
 
